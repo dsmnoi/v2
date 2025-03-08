@@ -12,11 +12,11 @@ regexp:BitTorrent protocol
 #regexp:(.*.)(tcbox|wappass|tieba|nsclick|sofire|gips0|afd|als|hmma|info|bgg|mbd|afdconf|).(tuisong|baidu|bdstatic).(cn|com|net)
 regexp:(.*.)(^360|0360|1360|3600|360safe|qhimg|qhmsg|^yun-pan|qi-hoo|qhcdn|qhup-date|360-to-talse-cu-rity|360shouji|qi-hucdn|360kan|secmp).(cn|com|net)
 regexp:(.*.||)(guanjia.qq.com|qqpcmgr|QQPCMGR)
-regexp:(.*.)(weixin|qq|weixin110|weibo|zhihu|toutiao|bytedance|zijieapi|xiaohongshu|xhscdn|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn|douyinvod|douyin).(cn|com|net)
+regexp:(.*.)(weixin|qq|weixin110|weibo|toutiao|bytedance|zijieapi|xiaohongshu|xhscdn|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn|douyinvod|douyin).(cn|com|net)
 regexp:(.*.)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|emcd|luxor|sigmapool|okkong|hpt|minerium|ckpool|mmpool|hashcity|uutest|huobipool|sparkpool|qkl123|webkaka|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc).(com|cn|net|org|io|im|cc|pro|top|one|co|info)
 regexp:(.+.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
 regexp:(.*.||)(miaozhen|cnzz|talkingdata|umeng).(cn|com)
-regexp:(.+.|^)(zhihu).(com)
+#regexp:(.+.|^)(zhihu).(com)
 regexp:(.+.|^)(amemv|ecombdapi|toutiao|baike|zijieapi|douyinpic|bytedance|pstatp|bdurlsnssdk|awemueughun|oceanengine|douyinstatic).(cn|com|net)
 regexp:(eth|asia|eth-eu|eth-us|cn|eth-backup|eth-na|stratum-etheth-eu1|eth-eu2).(antpool|sparkpool|f2pool|nanopool).(org|com)
 #禁止 BT2 禁用 BT 防止版???
@@ -292,7 +292,7 @@ tieba.baidu.com
 xuexi.cn
 rednet.cn
 weibo.com
-zhihu.com
+#zhihu.com
 douban.com
 tmall.com
 vip.com
