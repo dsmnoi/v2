@@ -1,4 +1,4 @@
-# ¨C¦æ¤@?????¡A???¦Ò https://soga.vaxilu.com/other-tutorial/block-list-config
+# æ¯è¡Œä¸€?????ï¼Œ???è€ƒ https://soga.vaxilu.com/other-tutorial/block-list-config
 regexp:(api|ps|sv|offnavi|newvector|ulog\\.imap|newloc)(\\.map|)\\.(baidu|n\\.shifen)\\.com
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
 regexp:(Subject|HELO|SMTP)
@@ -19,36 +19,36 @@ regexp:(.*.||)(miaozhen|cnzz|talkingdata|umeng).(cn|com)
 regexp:(.+.|^)(zhihu).(com)
 regexp:(.+.|^)(amemv|ecombdapi|toutiao|baike|zijieapi|douyinpic|bytedance|pstatp|bdurlsnssdk|awemueughun|oceanengine|douyinstatic).(cn|com|net)
 regexp:(eth|asia|eth-eu|eth-us|cn|eth-backup|eth-na|stratum-etheth-eu1|eth-eu2).(antpool|sparkpool|f2pool|nanopool).(org|com)
-#¸T¤î BT2 ¸T¥Î BT ¨¾¤îª©???
+#ç¦æ­¢ BT2 ç¦ç”¨ BT é˜²æ­¢ç‰ˆ???
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php\?passkey=)
 
-#«Ì½ª Spam ?½c
+#å±è”½ Spam ?ç®±
 regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
 
-#«Ì½ª¨³¹p ¸T¥Î BT ¨¾¤îª©???
+#å±è”½è¿…é›· ç¦ç”¨ BT é˜²æ­¢ç‰ˆ???
 regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
 
-#¸T¤î¦Ê«×°ªºë«×©w¦ì ¡A¨¾¤î IP ÉO«È?ºİ¦a²z¦ì¸m³Q??
+#ç¦æ­¢ç™¾åº¦é«˜ç²¾åº¦å®šä½ ï¼Œé˜²æ­¢ IP ä¸å®¢?ç«¯åœ°ç†ä½ç½®è¢«??
 regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 
-#¸T¤î 360 ¦³¬rªA? «Ì½ª 360
+#ç¦æ­¢ 360 æœ‰æ¯’æœ? å±è”½ 360
 regexp:(.+.|^)(360|so).(cn|com)
 
-#«Ì½ªª÷¤s¬rÅQ ¨¾¤îªA?¾¹??
+#å±è”½é‡‘å±±æ¯’éœ¸ é˜²æ­¢æœ?å™¨??
 regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
-#??¬F©²ÊI¯¸
-#regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn|hk|tw)
+#??æ”¿åºœç½‘ç«™
+regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
 
-#???¦æ
+#???è¡Œ
 regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|jsbchina|nbcb|njcb|cqrcb|srcb|cbhb|csbchina|gdrcb|bjrcb|xib|tccb|hrbb|cdrcb|szrcb|klb|sdb|bosc|tjrcb|qrcb|qlbchina|hkbchina|nhrcb|wzcb|czcb|msbc|fdb|bob|csccb|whccb|cnbhx|xsrcb|nyyb|cq3q|fsny).(cn|com|com.cn)
 
-#ªÀ¥æ´CÊ^
+#ç¤¾äº¤åª’ä½“
 regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
-#¥~?¥æ©ö
+#å¤–?äº¤æ˜“
 regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
-#?¥dÊI¯¸
+#?å¡ç½‘ç«™
 regexp:(.*\.||)(gash)\.(com|tw)
 regexp:(.*\.||)(mycard)\.(com|tw)
 geosite:category-bank-cn
@@ -249,10 +249,10 @@ rarbg
 #domain:freebookspot.eu
 #domain:citroensm.net
 #domain:oiidoc.com
-# ®e©ö³Q§Q¥Î¤_´Û?
+# å®¹æ˜“è¢«åˆ©ç”¨äºæ¬º?
 funmart.beanfun.com
 gashpoint.com
-# ¬F©²¡B?®Õ¡Bª÷¿ÄÉóÌÛ
+# æ”¿åºœã€?æ ¡ã€é‡‘èæœºæ„
 alipay.com
 tenpay.com
 unionpay.com
@@ -276,7 +276,7 @@ jcbcard.cn
 pbccrc.org.cn
 adbc.com.cn
 gamepay.com.tw
-# ¤¤?¤j?¤£Óì¥Î¥N²zªº°ì¦W
+# ä¸­?å¤§?ä¸é€‚ç”¨ä»£ç†çš„åŸŸå
 10099.com.cn
 10010.com
 189.cn
