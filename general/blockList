@@ -12,7 +12,7 @@ regexp:BitTorrent protocol
 #regexp:(.*.)(tcbox|wappass|tieba|nsclick|sofire|gips0|afd|als|hmma|info|bgg|mbd|afdconf|).(tuisong|baidu|bdstatic).(cn|com|net)
 regexp:(.*.)(^360|0360|1360|3600|360safe|qhimg|qhmsg|^yun-pan|qi-hoo|qhcdn|qhup-date|360-to-talse-cu-rity|360shouji|qi-hucdn|360kan|secmp).(cn|com|net)
 regexp:(.*.||)(guanjia.qq.com|qqpcmgr|QQPCMGR)
-regexp:(.*.)(weixin|qq|weixin110|weibo|toutiao|bytedance|zijieapi|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn).(cn|com|net)
+regexp:(.*.)(weixin|qq|weixin110|toutiao|bytedance|zijieapi|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn).(cn|com|net)
 regexp:(.*.)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|emcd|luxor|sigmapool|okkong|hpt|minerium|ckpool|mmpool|hashcity|uutest|huobipool|sparkpool|qkl123|webkaka|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc).(com|cn|net|org|io|im|cc|pro|top|one|co|info)
 regexp:(.+.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
 regexp:(.*.||)(miaozhen|cnzz|talkingdata|umeng).(cn|com)
@@ -44,7 +44,7 @@ regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
 regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|jsbchina|nbcb|njcb|cqrcb|srcb|cbhb|csbchina|gdrcb|bjrcb|xib|tccb|hrbb|cdrcb|szrcb|klb|sdb|bosc|tjrcb|qrcb|qlbchina|hkbchina|nhrcb|wzcb|czcb|msbc|fdb|bob|csccb|whccb|cnbhx|xsrcb|nyyb|cq3q|fsny).(cn|com|com.cn)
 
 #社交媒体
-regexp:(.*.||)(weibo|douban).(cn|com|com.cn|net)
+#regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
 #外?交易
 regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
