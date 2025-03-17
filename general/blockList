@@ -35,7 +35,7 @@ regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).
 regexp:(.+.|^)(360|so).(cn|com)
 
 #屏蔽金山毒霸 防止服?器??
-regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+#regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
