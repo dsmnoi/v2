@@ -47,7 +47,7 @@ regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
 #regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
 #外?交易
-regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
+#regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
 #?卡网站
 #regexp:(.*\.||)(gash)\.(com|tw)
 #regexp:(.*\.||)(mycard)\.(com|tw)
