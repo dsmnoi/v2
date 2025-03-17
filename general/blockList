@@ -23,19 +23,19 @@ regexp:(.*.)(weixin|qq|weixin110|toutiao|bytedance|zijieapi|umengcloud|fengkongc
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php\?passkey=)
 
 #屏蔽 Spam ?箱
-#regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
 
 #屏蔽迅雷 禁用 BT 防止版???
-regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
+#regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
 
 #禁止百度高精度定位 ，防止 IP 与客?端地理位置被??
-regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+#regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 
 #禁止 360 有毒服? 屏蔽 360
 regexp:(.+.|^)(360|so).(cn|com)
 
 #屏蔽金山毒霸 防止服?器??
-#regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
