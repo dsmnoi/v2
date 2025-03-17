@@ -1,5 +1,4 @@
 # 每行一?????，???考 https://soga.vaxilu.com/other-tutorial/block-list-config
-regexp:(api|ps|sv|offnavi|newvector|ulog\\.imap|newloc)(\\.map|)\\.(baidu|n\\.shifen)\\.com
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
 regexp:(Subject|HELO|SMTP)
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php?passkey=|bt_key|ed2k|magnet:|xunlei)
@@ -16,6 +15,8 @@ regexp:(.*.)(^360|0360|360|1360|3600|360safe|qhimg|qhmsg|yunpan|qihoo|qhcdn|qhup
 regexp:(.*.||)(guanjia.qq.com|qqpcmgr|QQPCMGR)
 # 节点屏蔽 金山毒霸 相关域名
 regexp:(.*.)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+# 节点屏蔽 百度定位 相关域名
+regexp:(api|ps|sv|offnavi|newvector|ulog.imap|newloc|tracknavi)(.map|).(baidu|n.shifen).com
 regexp:(.*.)(weixin|qq|weixin110|toutiao|bytedance|zijieapi|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn).(cn|com|net)
 #regexp:(.*.)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|emcd|luxor|sigmapool|okkong|hpt|minerium|ckpool|mmpool|hashcity|uutest|huobipool|sparkpool|qkl123|webkaka|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc).(com|cn|net|org|io|im|cc|pro|top|one|co|info)
 #regexp:(.+.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
@@ -31,9 +32,6 @@ regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bc
 
 #屏蔽迅雷 禁用 BT 防止版???
 regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
-
-#禁止百度高精度定位 ，防止 IP 与客?端地理位置被??
-regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
