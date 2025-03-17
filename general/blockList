@@ -1,7 +1,6 @@
 # 每行一?????，???考 https://soga.vaxilu.com/other-tutorial/block-list-config
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php?passkey=|bt_key|ed2k|magnet:|xunlei)
-regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php?passkey=)
 regexp:(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
 regexp:(.+.)?(torrent|announce.php?passkey=|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
 regexp:(.*\.||)(netvigator|torproject)\.(com|cn|net|org)
@@ -17,6 +16,8 @@ regexp:(.*.)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 regexp:(api|ps|sv|offnavi|newvector|ulog.imap|newloc|tracknavi)(.map|).(baidu|n.shifen).com
 # 节点屏蔽 邮件滥发 相关内容
 regexp:((^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)|Subject|HELO|SMTP)
+# 节点屏蔽 银行和金融机构相关域名
+regexp:(.*.)(alipay.com|tenpay.com|unionpay.com|yunshanfu.cn|icbc.com.cn|ccb.com|boc.cn|bankcomm.com|abchina.com|cmbchina.com|psbc.com|cebbank.com|cmbc.com.cn|pingan.com|spdb.com.cn|bank.ecitic.com|cib.com.cn|hxb.com.cn|cgbchina.com.cn|jcbcard.cn|pbccrc.org.cn|adbc.com.cn|gamepay.com.tw)
 regexp:(.*.)(weixin|qq|weixin110|toutiao|bytedance|zijieapi|umengcloud|fengkongcloud|cpatrk|ctobsnssdk|shuzilm|soulapp|immomo|momocdn).(cn|com|net)
 #regexp:(.*.)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|emcd|luxor|sigmapool|okkong|hpt|minerium|ckpool|mmpool|hashcity|uutest|huobipool|sparkpool|qkl123|webkaka|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc).(com|cn|net|org|io|im|cc|pro|top|one|co|info)
 #regexp:(.+.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
