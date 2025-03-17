@@ -20,10 +20,10 @@ regexp:(.*.)(weixin|qq|weixin110|toutiao|bytedance|zijieapi|umengcloud|fengkongc
 #regexp:(.+.|^)(amemv|ecombdapi|toutiao|baike|zijieapi|bytedance|pstatp|bdurlsnssdk|awemueughun|oceanengine).(cn|com|net)
 #regexp:(eth|asia|eth-eu|eth-us|cn|eth-backup|eth-na|stratum-etheth-eu1|eth-eu2).(antpool|sparkpool|f2pool|nanopool).(org|com)
 #禁止 BT2 禁用 BT 防止版???
-regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php\?passkey=)
+#regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php\?passkey=)
 
 #屏蔽 Spam ?箱
-regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+#regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
 
 #屏蔽迅雷 禁用 BT 防止版???
 regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
@@ -35,7 +35,7 @@ regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).
 regexp:(.+.|^)(360|so).(cn|com)
 
 #屏蔽金山毒霸 防止服?器??
-regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+#regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
