@@ -32,10 +32,10 @@ regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
 regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 
 #禁止 360 有毒服? 屏蔽 360
-regexp:(.+.|^)(360|so).(cn|com)
+#regexp:(.+.|^)(360|so).(cn|com)
 
 #屏蔽金山毒霸 防止服?器??
-regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+#regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
