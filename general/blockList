@@ -35,19 +35,19 @@ regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).
 #regexp:(.+.|^)(360|so).(cn|com)
 
 #屏蔽金山毒霸 防止服?器??
-#regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
+regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
 #??政府网站
 regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn)
 
 #???行
-#regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|jsbchina|nbcb|njcb|cqrcb|srcb|cbhb|csbchina|gdrcb|bjrcb|xib|tccb|hrbb|cdrcb|szrcb|klb|sdb|bosc|tjrcb|qrcb|qlbchina|hkbchina|nhrcb|wzcb|czcb|msbc|fdb|bob|csccb|whccb|cnbhx|xsrcb|nyyb|cq3q|fsny).(cn|com|com.cn)
+regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|jsbchina|nbcb|njcb|cqrcb|srcb|cbhb|csbchina|gdrcb|bjrcb|xib|tccb|hrbb|cdrcb|szrcb|klb|sdb|bosc|tjrcb|qrcb|qlbchina|hkbchina|nhrcb|wzcb|czcb|msbc|fdb|bob|csccb|whccb|cnbhx|xsrcb|nyyb|cq3q|fsny).(cn|com|com.cn)
 
 #社交媒体
 #regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
 #外?交易
-#regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
+regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
 #?卡网站
 #regexp:(.*\.||)(gash)\.(com|tw)
 #regexp:(.*\.||)(mycard)\.(com|tw)
