@@ -43,7 +43,7 @@ regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|j
 #regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
 #外?交易
-regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
+#regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
 #?卡网站
 #regexp:(.*\.||)(gash)\.(com|tw)
 #regexp:(.*\.||)(mycard)\.(com|tw)
