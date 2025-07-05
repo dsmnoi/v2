@@ -1,7 +1,7 @@
 # 每行一?????，???考 https://soga.vaxilu.com/other-tutorial/block-list-config
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php?passkey=|bt_key|ed2k|magnet:|xunlei)
-regexp:(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
+#regexp:(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
 regexp:(.+.)?(torrent|announce.php?passkey=|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
 regexp:(.*\.||)(netvigator|torproject)\.(com|cn|net|org)
 regexp:BitTorrent protocol
