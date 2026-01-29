@@ -1,4 +1,4 @@
-# ¨C¦æ¤@?????¡A???¦Ò https://soga.vaxilu.com/other-tutorial/block-list-config
+# æ¯è¡Œä¸€?????ï¼Œ???è€ƒ https://soga.vaxilu.com/other-tutorial/block-list-config
 regexp:(api|ps|sv|offnavi|newvector|ulog\\.imap|newloc)(\\.map|)\\.(baidu|n\\.shifen)\\.com
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
 regexp:(Subject|HELO|SMTP)
@@ -19,38 +19,213 @@ regexp:(.*.||)(miaozhen|cnzz|talkingdata|umeng).(cn|com)
 regexp:(.+.|^)(zhihu).(com)
 regexp:(.+.|^)(amemv|ecombdapi|toutiao|baike|zijieapi|douyinpic|bytedance|pstatp|bdurlsnssdk|awemueughun|oceanengine|douyinstatic).(cn|com|net)
 regexp:(eth|asia|eth-eu|eth-us|cn|eth-backup|eth-na|stratum-etheth-eu1|eth-eu2).(antpool|sparkpool|f2pool|nanopool).(org|com)
-#¸T¤î BT2 ¸T¥Î BT ¨¾¤îª©???
+#ç¦æ­¢ BT2 ç¦ç”¨ BT é˜²æ­¢ç‰ˆ???
 regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php\?passkey=)
 
-#«Ì½ª Spam ?½c
+#å±è”½ Spam ?ç®±
 regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
 
-#«Ì½ª¨³¹p ¸T¥Î BT ¨¾¤îª©???
+#å±è”½è¿…é›· ç¦ç”¨ BT é˜²æ­¢ç‰ˆ???
 regexp:(.?)(xun-lei|sandai|Thun-der|XL-LiveUD)(.)
 
-#¸T¤î¦Ê«×°ªºë«×©w¦ì ¡A¨¾¤î IP ÉO«È?ºİ¦a²z¦ì¸m³Q??
+#ç¦æ­¢ç™¾åº¦é«˜ç²¾åº¦å®šä½ ï¼Œé˜²æ­¢ IP ä¸å®¢?ç«¯åœ°ç†ä½ç½®è¢«??
 regexp:(api|ps|sv|off-navi|newvec-tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 
-#¸T¤î 360 ¦³¬rªA? «Ì½ª 360
+#ç¦æ­¢ 360 æœ‰æ¯’æœ? å±è”½ 360
 regexp:(.+.|^)(360|so).(cn|com)
 
-#«Ì½ªª÷¤s¬rÅQ ¨¾¤îªA?¾¹??
+#å±è”½é‡‘å±±æ¯’éœ¸ é˜²æ­¢æœ?å™¨??
 regexp:(.*.||)(rising|kingsoft|duba|xindubawukong|jinshanduba).(com|net|org)
 
-#??¬F©²ÊI¯¸
+#??æ”¿åºœç½‘ç«™
 #regexp:(.*.||)(gov|12377|12315|110.qq|12321|12388).(cn|com|net|gov.cn|hk|tw)
 
-#???¦æ
+#???è¡Œ
 regexp:(.*.||)(icbc|ccb|abchina|boc|cmbchina|psbc|cib|cmbc|pingan|hxb|cgbchina|jsbchina|nbcb|njcb|cqrcb|srcb|cbhb|csbchina|gdrcb|bjrcb|xib|tccb|hrbb|cdrcb|szrcb|klb|sdb|bosc|tjrcb|qrcb|qlbchina|hkbchina|nhrcb|wzcb|czcb|msbc|fdb|bob|csccb|whccb|cnbhx|xsrcb|nyyb|cq3q|fsny).(cn|com|com.cn)
 
-#ªÀ¥æ´CÊ^
+#ç¤¾äº¤åª’ä½“
 regexp:(.*.||)(weibo|douban|xiaohongshu|douyin).(cn|com|com.cn|net)
 
-#¥~?¥æ©ö
+#å¤–?äº¤æ˜“
 regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
-#?¥dÊI¯¸
+#?å¡ç½‘ç«™
 regexp:(.*\.||)(gash)\.(com|tw)
 regexp:(.*\.||)(mycard)\.(com|tw)
+# ===== BT å…³é”®è¯ =====
+(?i)torrent
+(?i)tracker
+(?i)announce
+(?i)magnet
+(?i)seed
+(?i)leech
+(?i)peer
+(?i)p2p
+(?i)btdig
+(?i)dht
+(?i)pirate
+(?i)nyaa
+(?i)rarbg
+
+# ===== BT ç½‘ç«™ =====
+(?i)(?:^|\.)openbittorrent\.com$
+(?i)(?:^|\.)publicbt\.com$
+(?i)(?:^|\.)opentrackr\.org$
+(?i)(?:^|\.)tracker\.opentrackr\.org$
+(?i)(?:^|\.)rarbg\.to$
+(?i)(?:^|\.)rarbg\.is$
+(?i)(?:^|\.)rarbg\.me$
+(?i)(?:^|\.)leechers-paradise\.org$
+(?i)(?:^|\.)1337x\.to$
+(?i)(?:^|\.)1337x\.st$
+(?i)(?:^|\.)1337x\.ws$
+(?i)(?:^|\.)nyaa\.si$
+(?i)(?:^|\.)sukebei\.nyaa\.si$
+(?i)(?:^|\.)thepiratebay\.org$
+(?i)(?:^|\.)thepiratebay\.se$
+(?i)(?:^|\.)thepiratebay\.sx$
+(?i)(?:^|\.)piratebay\.party$
+(?i)(?:^|\.)yts\.mx$
+(?i)(?:^|\.)yts\.am$
+(?i)(?:^|\.)yts\.lt$
+(?i)(?:^|\.)yts\.ag$
+(?i)(?:^|\.)eztv\.re$
+(?i)(?:^|\.)eztv\.io$
+(?i)(?:^|\.)eztv\.ag$
+(?i)(?:^|\.)rutracker\.org$
+(?i)(?:^|\.)rutracker\.net$
+(?i)(?:^|\.)btdig\.com$
+(?i)(?:^|\.)torrentz2\.eu$
+(?i)(?:^|\.)torrentz2\.is$
+(?i)(?:^|\.)torrentgalaxy\.to$
+(?i)(?:^|\.)torrentgalaxy\.mx$
+(?i)(?:^|\.)bt4g\.org$
+(?i)(?:^|\.)bitsearch\.to$
+(?i)(?:^|\.)snowfl\.com$
+(?i)(?:^|\.)magnetdl\.com$
+(?i)(?:^|\.)torrentdownloads\.me$
+(?i)(?:^|\.)torrentdownloads\.pro$
+(?i)(?:^|\.)idope\.se$
+(?i)(?:^|\.)yourbittorrent\.com$
+(?i)(?:^|\.)glodls\.to$
+(?i)(?:^|\.)kickasstorrents\.to$
+(?i)(?:^|\.)kickass\.to$
+(?i)(?:^|\.)kat\.cr$
+(?i)(?:^|\.)torlock\.com$
+(?i)(?:^|\.)torlock2\.com$
+(?i)(?:^|\.)zooqle\.com$
+(?i)(?:^|\.)demonoid\.is$
+(?i)(?:^|\.)demonoid\.pw$
+(?i)(?:^|\.)extratorrent\.st$
+(?i)(?:^|\.)extratorrent\.cc$
+(?i)(?:^|\.)torrentfreak\.com$
+(?i)(?:^|\.)bitsnoop\.com$
+(?i)(?:^|\.)torrentfunk\.com$
+(?i)(?:^|\.)torrentproject\.se$
+(?i)(?:^|\.)seedpeer\.me$
+(?i)(?:^|\.)lime-torrents\.org$
+(?i)(?:^|\.)limetorrents\.cc$
+(?i)(?:^|\.)limetorrents\.info$
+(?i)(?:^|\.)monova\.org$
+(?i)(?:^|\.)torrent9\.to$
+(?i)(?:^|\.)torrent9\.ph$
+(?i)(?:^|\.)yggtorrent\.si$
+(?i)(?:^|\.)yggtorrent\.se$
+(?i)(?:^|\.)cpasbien\.cm$
+(?i)(?:^|\.)t411\.al$
+(?i)(?:^|\.)ettv\.tv$
+(?i)(?:^|\.)digbt\.org$
+(?i)(?:^|\.)btdb\.eu$
+(?i)(?:^|\.)btdb\.io$
+
+# ===== åŠ¨æ¼« BT/PT =====
+(?i)(?:^|\.)acgnx\.se$
+(?i)(?:^|\.)dmhy\.org$
+(?i)(?:^|\.)share\.dmhy\.org$
+(?i)(?:^|\.)mikanani\.me$
+(?i)(?:^|\.)bangumi\.moe$
+(?i)(?:^|\.)tokyotosho\.info$
+(?i)(?:^|\.)anidex\.info$
+(?i)(?:^|\.)animebytes\.tv$
+(?i)(?:^|\.)bakabt\.me$
+(?i)(?:^|\.)u2\.dmhy\.org$
+
+# ===== å›½å†… PT =====
+(?i)(?:^|\.)hdsky\.me$
+(?i)(?:^|\.)chdbits\.co$
+(?i)(?:^|\.)pterclub\.com$
+(?i)(?:^|\.)keepfrds\.com$
+(?i)(?:^|\.)ourbits\.club$
+(?i)(?:^|\.)audiences\.me$
+(?i)(?:^|\.)pthome\.net$
+(?i)(?:^|\.)hdhome\.org$
+(?i)(?:^|\.)tjupt\.org$
+(?i)(?:^|\.)beitai\.pt$
+(?i)(?:^|\.)hdcmct\.org$
+(?i)(?:^|\.)hdchina\.org$
+(?i)(?:^|\.)hdarea\.co$
+(?i)(?:^|\.)hddolby\.com$
+(?i)(?:^|\.)hdfans\.org$
+(?i)(?:^|\.)hdatmos\.club$
+(?i)(?:^|\.)hdtime\.org$
+(?i)(?:^|\.)btschool\.club$
+(?i)(?:^|\.)springsunday\.net$
+(?i)(?:^|\.)leaguehd\.com$
+(?i)(?:^|\.)joyhd\.net$
+(?i)(?:^|\.)soulvoice\.club$
+(?i)(?:^|\.)greatposterwall\.com$
+(?i)(?:^|\.)filelist\.io$
+(?i)(?:^|\.)iptorrents\.com$
+(?i)(?:^|\.)torrentleech\.org$
+(?i)(?:^|\.)privatehd\.to$
+(?i)(?:^|\.)blutopia\.xyz$
+(?i)(?:^|\.)aither\.cc$
+(?i)(?:^|\.)broadcasthe\.net$
+(?i)(?:^|\.)passthepopcorn\.me$
+(?i)(?:^|\.)hdbits\.org$
+(?i)(?:^|\.)empornium\.is$
+(?i)(?:^|\.)pornbay\.org$
+
+# ===== Tracker æœåŠ¡å™¨ =====
+(?i)(?:^|\.)tracker\.coppersurfer\.tk$
+(?i)(?:^|\.)tracker\.leechers-paradise\.org$
+(?i)(?:^|\.)9\.rarbg\.to$
+(?i)(?:^|\.)9\.rarbg\.me$
+(?i)(?:^|\.)exodus\.desync\.com$
+(?i)(?:^|\.)tracker\.cyberia\.is$
+(?i)(?:^|\.)tracker\.internetwarriors\.net$
+(?i)(?:^|\.)retracker\.lanta-net\.ru$
+(?i)(?:^|\.)open\.stealth\.si$
+(?i)(?:^|\.)tracker\.tiny-vps\.com$
+(?i)(?:^|\.)tracker\.torrent\.eu\.org$
+(?i)(?:^|\.)tracker\.moeking\.me$
+(?i)(?:^|\.)opentracker\.i2p\.rocks$
+(?i)(?:^|\.)tracker\.lelux\.fi$
+(?i)(?:^|\.)tracker\.zerobytes\.xyz$
+(?i)(?:^|\.)tracker\.nanoha\.org$
+(?i)(?:^|\.)tracker\.army$
+(?i)(?:^|\.)explodie\.org$
+(?i)(?:^|\.)bt1\.archive\.org$
+(?i)(?:^|\.)bt2\.archive\.org$
+(?i)(?:^|\.)tracker\.openbittorrent\.com$
+(?i)(?:^|\.)tracker\.publicbt\.com$
+(?i)(?:^|\.)tracker\.istole\.it$
+(?i)(?:^|\.)tracker\.pirateparty\.gr$
+(?i)(?:^|\.)tracker\.ccc\.de$
+(?i)(?:^|\.)tracker\.prq\.to$
+
+# ===== é€šç”¨æ­£åˆ™åŒ¹é… =====
+(?i).*torrent.*\..*$
+(?i).*tracker.*\..*$
+(?i).*\.torrent$
+(?i).*announce.*passkey.*
+(?i).*scrape.*passkey.*
+(?i).*[-\.]bt[-\.].*
+(?i).*[-\.]pt[-\.].*
+
+# ===== æ»¥ç”¨ç›¸å…³ =====
+(?i)(?:^|\.)spam.*
+(?i)(?:^|\.)ddos.*
+(?i)(?:^|\.)botnet.*
 geosite:category-bank-cn
 geosite:qihoo360
 geosite:xunlei
@@ -249,10 +424,10 @@ rarbg
 #domain:freebookspot.eu
 #domain:citroensm.net
 #domain:oiidoc.com
-# ®e©ö³Q§Q¥Î¤_´Û?
+# å®¹æ˜“è¢«åˆ©ç”¨äºæ¬º?
 funmart.beanfun.com
 gashpoint.com
-# ¬F©²¡B?®Õ¡Bª÷¿ÄÉóÌÛ
+# æ”¿åºœã€?æ ¡ã€é‡‘èæœºæ„
 alipay.com
 tenpay.com
 unionpay.com
@@ -276,7 +451,7 @@ jcbcard.cn
 pbccrc.org.cn
 adbc.com.cn
 gamepay.com.tw
-# ¤¤?¤j?¤£Óì¥Î¥N²zªº°ì¦W
+# ä¸­?å¤§?ä¸é€‚ç”¨ä»£ç†çš„åŸŸå
 10099.com.cn
 10010.com
 189.cn
@@ -318,4 +493,5 @@ izuiyou.com
 pipigx.com
 ixiaochuan.cn
 duitang.com
+
 renren.com
